@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colorful Two Player Dice Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="gameArea">
+        <h1>🎲 Colorful Two Player Dice Game 🎲</h1>
+        <div id="playerInfo">
+            <p id="player1Name"></p>
+            <p id="player2Name"></p>
+        </div>
+        <div id="gameStatus"></div>
+        <div id="buttons">
+            <button id="player1Btn" onclick="rollDice(1)">Player 1 Roll</button>
+            <button id="player2Btn" onclick="rollDice(2)" disabled>Player 2 Roll</button>
+        </div>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

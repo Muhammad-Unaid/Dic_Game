@@ -1,0 +1,77 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background: linear-gradient(to right, #ffafbd, #ffc3a0); /* Background gradient */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#gameArea {
+    text-align: center;
+    background-color: #fff;
+    border: 4px solid #f39c12;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    background: linear-gradient(to right, #ff512f, #dd2476);
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+#playerInfo p {
+    font-size: 20px;
+    color: #8e44ad;
+    margin: 10px;
+}
+
+button {
+    padding: 15px 30px;
+    margin: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+#player1Btn {
+    background-color: #3498db;
+    color: white;
+}
+
+#player2Btn {
+    background-color: #e74c3c;
+    color: white;
+}
+
+button:disabled {
+    background-color: #bdc3c7;
+    cursor: not-allowed;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 22px;
+    color: #2c3e50;
+    font-weight: bold;
+}
+
+#gameStatus {
+    font-size: 24px;
+    color: #16a085;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
